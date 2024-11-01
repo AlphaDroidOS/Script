@@ -15,6 +15,7 @@ git clone https://github.com/AlphaDroidOS/android_kernel_xiaomi_mojito.git --dep
 # vendor tree
 git clone https://github.com/AlphaDroidOS/android_vendor_xiaomi_mojito.git --depth 1 -b 11 vendor/xiaomi/mojito
 git clone https://github.com/AlphaDroidOS/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 11 vendor/xiaomi/sm6150-common
+git clone --depth=1 https://gitlab.com/pnplusplus/android_vendor_xiaomi_mojito-leicacamera vendor/xiaomi/mojito-leicacamera
 # hardware tree
 git clone https://github.com/AlphaDroidOS/android_hardware_xiaomi.git --depth 1 -b 13 mojito hardware/xiaomi
 # set build environment
